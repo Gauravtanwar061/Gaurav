@@ -1,0 +1,201 @@
+#bg1 {
+  background: url(./image/bg1.jpg) no-repeat center center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.center {
+  text-align: center;
+}
+
+.heading1 h1 {
+  color: aliceblue;
+  margin-top: -75px;
+  font-size: 70px;
+}
+
+#header1 {
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  position: fixed;
+}
+
+.nav-item {
+  margin-top: 10px;
+}
+
+.nav-link:hover {
+  background-color: hsl(0, 0%, 100%, 0.2);
+  border-radius: 10px;
+}
+
+#section1 {
+  float: left;
+  width: 25%;
+  margin-left: 100px;
+}
+
+#section1 div {
+  font-size: 50px;
+  color: cyan;
+  font-style: italic;
+  font-weight: bolder;
+  float: left;
+  margin-top: 20px;
+  margin-left: 5px;
+  font-family: URW Chancery L, cursive;
+}
+
+#img1 {
+  height: 80px;
+  width: 80px;
+}
+
+#img2 {
+  float: right;
+  margin-top: -415px;
+}
+
+.aboutme {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.about-me-box {
+  border-radius: 20px;
+  background-color: aliceblue;
+  box-shadow: 0 -10px 15px 16px rgb(118, 100, 254);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.aboutme h1 {
+  font-size: 100px;
+  color: aliceblue;
+  margin-top: 3%;
+}
+
+#about-text {
+  color: white;
+  font-size: 100px;
+  margin-left: 180px;
+  padding-top: 150px;
+}
+
+.aboutme ul {
+  text-align: center;
+  color: rgb(106 168 100);
+}
+
+.aboutme ul li {
+  padding: 10px;
+  font-size: 25px;
+}
+
+#about1 {
+  text-align: left;
+  padding-left: 30px;
+}
+
+#about1 ul {
+  text-align: left;
+  list-style: disc;
+}
+
+.skills {
+  border: 1px solid transparent;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 50px;
+}
+
+.skills img {
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+}
+
+.skills h3 {
+  color: white;
+  text-align: center;
+}
+
+.h-secondary {
+  color: aquamarine;
+}
+
+.box p {
+  color: azure;
+}
+
+#project-main-box {
+  margin-top: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.projects {
+  /* margin: 34px; */
+  display: flex;
+}
+
+.projects .box {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 10px solid #d6e221;
+  border-radius: 33px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.projects .box img {
+  height: 288px;
+  margin: auto;
+  display: block;
+}
+
+.projects .box p {
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.contact1{
+  justify-content: center;
+  text-align: center;
+}
+
+.contact1 h2{
+  color: aliceblue;
+}
+.contact1 p{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.contact-img-bg img {
+  height: 100px;
+  width: 100px;
+}
+
+.contact-img-bg {
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background-color: currentcolor;
+  border-radius: 200px;
+  padding: 50px;
+  margin: 50px;
+}
+
+
+#footer {
+  margin-top: 10%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: -2%;
+}

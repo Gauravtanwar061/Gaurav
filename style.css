@@ -626,6 +626,10 @@
     padding: 18px;
     margin: 8px;
   }
+  
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   .contact1 h2 {
     font-size: 20px;
